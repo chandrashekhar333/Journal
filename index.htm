@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Premium Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>📖 My Digital Journal</h1>
+        <p id="date"></p>
+    </header>
+
+    <div class="stats">
+        <button id="entryCount">Entries: 0</button>
+    </div>
+
+    <div class="journal-box">
+        <textarea id="journalText" placeholder="What's on your mind today?"></textarea>
+
+        <div class="btn-group">
+            <button onclick="saveEntry()">💾 Save Entry</button>
+            <button onclick="clearAll()">🗑 Clear All</button>
+        </div>
+    </div>
+
+    <div class="entries-section">
+        <h2>Recent Entries</h2>
+        <div id="entries"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

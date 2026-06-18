@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    display:flex;
+    justify-content:center;
+    padding:30px;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+}
+
+header{
+    text-align:center;
+    color:white;
+    margin-bottom:20px;
+}
+
+header h1{
+    font-size:2.5rem;
+}
+
+#date{
+    margin-top:10px;
+    font-size:1.1rem;
+}
+
+.stats{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#entryCount{
+    background:white;
+    color:#764ba2;
+    font-weight:bold;
+    border:none;
+    padding:12px 20px;
+    border-radius:25px;
+    font-size:16px;
+}
+
+.journal-box{
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(15px);
+    padding:20px;
+    border-radius:20px;
+}
+
+textarea{
+    width:100%;
+    height:180px;
+    border:none;
+    border-radius:15px;
+    padding:15px;
+    resize:none;
+    font-size:16px;
+}
+
+.btn-group{
+    margin-top:15px;
+    display:flex;
+    gap:10px;
+}
+
+button{
+    cursor:pointer;
+    border:none;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+}
+
+.entries-section{
+    margin-top:25px;
+}
+
+.entries-section h2{
+    color:white;
+    margin-bottom:15px;
+}
+
+.entry{
+    background:white;
+    padding:15px;
+    border-radius:15px;
+    margin-bottom:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.entry-time{
+    color:gray;
+    font-size:13px;
+    margin-top:8px;
+}
+
+.delete-btn{
+    margin-top:10px;
+    background:#ff4d4d;
+    color:white;
+}
